@@ -1,0 +1,267 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+    color:white
+}
+.showcase{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/855ed6e2-d9f1-4afd-90da-96023ec747c3/a822ccf9-e1b7-4352-92c7-aa9cd34f8931/CA-en-20230828-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position: relative;
+    filter:brightness(50%)
+}
+.showcase-top img{
+    height: 60px;
+    width: 200px;
+    padding-left: 200px;
+    padding-top: 20px;;
+}
+
+.btn-signin
+{
+    background-color: #DD0B15;
+    color:white;
+    padding: 8px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    position:absolute;
+    right:0;
+    margin-top: 20px;
+    margin-right:10%;
+    border-color: #DD0B15;
+}
+
+.topbtn{
+    
+    background-color: #000000;
+    padding: 8px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    position:absolute;
+    right:0;
+    margin-top: 20px;
+    margin-right:15%;
+}
+
+.showcase-content{
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 200px;
+} 
+
+.showcase-content h1{
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+
+.btn1{
+    background-color: #CA0F18;
+    padding:10px 25px;
+    font-size:medium;
+    border: none;
+    border-radius: 10px;
+}
+
+.email{
+    font-size: medium;
+    padding:8px 30px;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 5px;
+    
+
+}
+
+::placeholder{
+    color:white;
+    margin-left: 0px;
+
+}
+
+.h1{
+    font-weight: bolder;
+}
+
+.first-box{
+    background-color: #800F35;
+    width:100%;
+    height: 100px;
+}
+
+.poptext{
+    align-items: center;
+    display: flex;
+    flex: center;
+    margin-left: 48%;
+    padding-top: 20px;
+}
+.pop{
+    width:110px;
+    height:110px;
+    align-items: left;
+    position: absolute;
+    display: flex;
+    flex:left;
+    margin-left: 40%;
+
+}
+
+.second-box{
+    background-color: #000000;
+    width: 100%;
+    height: 500px;
+
+}
+
+.likefather{
+    position: absolute;
+    width: 100px;
+    height:20vh;
+    display: flex;
+    margin-left: 52%;
+    padding-top: 8%;
+}
+.tv{
+    float:right;
+    margin-right: 20%;
+
+}
+.text{
+    margin-left: 20%;
+    padding-top: 10%;
+
+}
+
+.text h1{
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.text p{
+    padding-top: 15px;
+  
+}
+
+.line1{
+    background-color: #232323;
+    width: 100%;
+    height:10px;
+}
+
+.third-box{
+    background-color: #000000;
+    width: 100%;
+    height: 600px;
+}
+.tv2{
+    margin-left:20%;
+}
+
+.video1{
+   position: absolute;
+   width: 100px;
+   height:20vh;
+   display: flex;
+   margin-left:27%;
+   margin-top: 5%;
+}
+.text2{
+position: absolute;
+right: 90px;
+transform: translate(-80%, -240%);
+}
+
+.text3{
+    position: absolute;
+    right: 90px;
+    transform: translate(-130%, -250%);
+    }
+
+
+.text2 h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.freq{
+    font-weight: bold;
+    font-size: 45px;
+    padding-left: 35%;
+    padding-top: 50px;
+    
+}
+
+.hox1{
+    height: 60px;
+    background-color: #414141;
+    width:1100px;
+    margin-left: 350px;
+}
+
+.que{
+   padding-left: 20px;
+   padding-top: 20px;
+   font:150px;
+}
+.fourth-box{
+    background-color: #000000;
+    width: 100%;
+    height: 800px;
+}
+
+.email2{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        margin-top: 50px;
+}
+
+::placeholder{
+    color:#9BB7B7;
+    margin-left: 0px;
+}
+
+.footer{
+    background-color: #000000;
+    width: 100%;
+    height: 500px;
+}
+
+.footercols ul li, a{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.footercols{
+    display: flex;
+    justify-content: space-around;
+    margin: 90px;
+}
+.footer P{
+    margin-left: 300px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+}
+
+.endbtn{
+    margin-left: 300px;
+    background-color: #000000;
+}
+
+.list{
+    color:black;
+}
+
